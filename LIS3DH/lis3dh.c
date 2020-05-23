@@ -83,7 +83,7 @@ void config_lis3dh_int1ths(void)
 void config_lis3dh_int1dur(void)
 {
 	lis3dh_reg_t.lis3dh_byte 		= 0x00;			/* Default */
-	lis3dh_reg_t.cfg_reg_int1dur.dur 	= 0x3C;			/* 1 minute - 0x3C */
+	lis3dh_reg_t.cfg_reg_int1dur.dur 	= 0x30;			/* 48 sec - 0x30 */
 }
 
 void config_lis3dh_int1cfg(void)
